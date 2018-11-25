@@ -10,11 +10,11 @@ The “Internet of Things (IoT)” is a relatively new term for what most would 
 
 We can generally think of IoT as three domains of technology.
 
-1. **Information Technology** - Computer, store, transmit.
+1. **Information Technology** - Compute, store, transmit.
 2. **Operational Technology** - Industrial Control Systems.
 3. **Consumer Technology** - technology thats easy to use.
 
-From those domains we can describe IoT generally as industrial compute and control technology that can is easy to build and use.
+From those domains we can describe IoT generally as industrial compute and control technology that is easy to build and use.
 
 ![IoTVen](docs/media/IoTVenDiagram.png)
 
@@ -45,6 +45,7 @@ Sensors detect *events* as electrical signal in the physical world. Creating mac
 Actuators are the mechanical and electrical control interfaces used by the micro-controllers and single-board computers. They can take direct and immediate *action* based on a variety of inputs and events
 
 ![Actuator Relay](docs/media/relay.png)
+
 ### Device Control
 
 Device endpoints and the software that supports them should be designed following the principles of [control theory](https://en.wikipedia.org/wiki/Control_theory). For a good general introduction to control theory read this entry from the [Encyclopedia Britannica](https://www.britannica.com/science/control-theory-mathematics)
@@ -132,3 +133,8 @@ http://www.sciencedirect.com/science/article/pii/B9780128053959000150
 
 Smart Farming (Mega Trend)
 https://devpost.com/software/smarter-farming-v1xbkc
+
+Definitions
+
+https://en.wikipedia.org/wiki/Consumer_electronics
+(https://en.wikipedia.org/wiki/Consumer_electronics#/media/File:Mobile_Phone_Evolution_1992_-_2014.jpg)
