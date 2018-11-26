@@ -8,27 +8,17 @@ The “Internet of Things (IoT)” is a relatively new term for what most would 
 
 ## Definition
 
-We can generally think of IoT as three domains of technology.
+We can generally think of IoT as three domains of technology. From these three types we can map where an IoT solution sits relative to the technology it is a descendant of. This can help technology decision makers compare solutions and gauge the maturity of an emerging product.
 
-1. **Information Technology** - Compute, store, transmit.
-2. **Operational Technology** - Industrial Control Systems.
-3. **Consumer Technology** - technology thats easy to use.
+![IoTVen](/docs/media/IoTVenDiagram.png)
 
-From those domains we can describe IoT generally as industrial compute and control technology that is easy to build and use.
-
-![IoTVen](docs/media/IoTVenDiagram.png)
-
-Smart manufacturing and new automation techniques are allowing for faster, better, and cheaper hardware to be produced fueling new innovations for connected devices. When you then add the digital component, the Internet, software interfaces, we get this many-to-many network of potential possibility that allows any physical thing you can make to talk to any digital thing you can dream up.
-
-Human attention is valuable, therefore it is expensive. If you can replace something that humans used to do with a machine, the economy and humanity at large will benefit. During the industrial revolution we saw the beginning of... "faster, better, cheaper" the mantra of the manufacturing industry. This still applies to IoT only now it’s faster, better, cheaper and smarter.
-
-...Custom engineered, automated, scientific data collection systems.
+From those domains we can describe IoT generally as **industrial compute and control technology that is easy to build and use.**
 
 ## General Architecture
 
 In order to build highly modular IoT systems it is useful to have a general architecture that includes the major components. This is by no means the only general architecture but it is highly modular and allows the IoT architect flexibility in the boards, sensors and communication interfaces they use.
 
-bellow you can see a Micro-Controller that controls several sensors and sends that data via a wireless interface to a raspberry pi that stores that data locally and in a cloud database. One raspberry pi can act as a hub for many sensor nodes.
+bellow you can see a Micro-Controller that runs firmware for several sensors and sends that data via a wireless radio to a nearby raspberry pi that then sends that data to a cloud database while keeping a copy locally for use. One raspberry pi can act as a hub for many sensor nodes.
 
 ![Example](docs/media/Arduino_Raspberry_Arch.jpeg)
 
